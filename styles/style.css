@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+
+:root{
+    --cor-primaria: #1e1745;
+    --cor-secundaria: #FFFFFF;
+    --cor-terciaria: #ffd738;
+    --cor-hover: #ff7f00;
+    
+    --font-primaria: 'Krona One', sans-serif;
+    --font-secundaria: 'montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+}
+
+.cabecalho__foto{
+    display: flex;
+    justify-content: center;
+    width: auto;
+}
+
+.apresentacao{
+    padding: 2% 0% 0% 0%;
+    font-size: 1rem;
+}
+
+.apresentacao__conteudo{
+    display: flex;
+    justify-content: center;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao__conteudo__titulo{
+    font-family: var(--font-secundaria);
+}
+
+.apresentacao__fotos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apresentacao__fotos__link{
+    padding: 3%;
+    width: 15%;
+
+}
+
+.apresentacao__fotos2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.apresentacao__fotos__link2{
+    padding: 3%;
+    width: 15%;
+
+}
+
+.rodape{
+    padding: 5% 0% 0% 0%;
+    font-size: 0.8rem;
+}
+
+.rodape__conteudo__criador{
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    color: var(--cor-terciaria);
+}
+
+.rodape__conteudo__cr{
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    color: var(--cor-secundaria);
+}
+
+@media(max-width: 1023px){
+    .cabecalho{
+        display: flex;
+        justify-content: center;
+        width: auto;
+    }
+    .apresentacao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5%;
+    }
+    .apresentacao__fotos{
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+    .apresentacao__fotos2{
+        flex-direction: column;
+    }
+
+    .apresentacao__conteudo{
+        justify-content: center;
+    }
+}
