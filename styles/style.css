@@ -46,7 +46,7 @@ body{
     flex-direction: row;
     justify-content: center;
     width: auto;
-    gap: 10rem 5rem;
+    gap: 0rem 5rem;
 }
 
 .apresentacao__fotos__link{
@@ -170,7 +170,7 @@ body{
         padding: 0%;
         justify-content: center;
     }
-    
+
     .apresentacao__conteudo{
         justify-content: center;
     }
